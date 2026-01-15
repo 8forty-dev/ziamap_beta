@@ -138,7 +138,7 @@ const Pricing = () => (
             <div className="flex flex-col md:flex-row items-center gap-16">
                 <div className="flex-1 space-y-8">
                     <div className="inline-block px-4 py-1 border border-[#F0B100] text-[#F0B100] font-motorsport text-xs italic tracking-widest uppercase">LIMITED BETA</div>
-                    <h2 className="text-5xl md:text-7xl font-motorsport font-bold italic leading-none uppercase">JOIN THE<br /><span className="text-[#F0B100] italic">BETA PROGRAM.</span></h2>
+                    <h2 className="text-5xl md:text-7xl font-motorsport font-bold italic leading-none uppercase">JOIN THE<br /><span className="text-[#F0B100] italic">ZIAMAP BETA PROGRAM.</span></h2>
                     <p className="text-xl text-slate-400 max-w-lg font-light leading-relaxed">We are keeping the beta group small to ensure we can gather high-quality feedback.</p>
                     <ul className="space-y-4">
                         {["LOCKED IN FOR 2 YEARS", "UNLIMITED PROJECTS", "6 TEST SEATS", "DIRECT ACCESS TO OUR TEAM"].map((text, i) => (
@@ -154,12 +154,15 @@ const Pricing = () => (
                 <div className="flex-1 w-full">
                     <div className="bg-[#F0B100] p-12 skew-element">
                         <div className="skew-text text-black">
-                            <div className="mb-12 ml-6">
+                            <div className="mb-8 ml-6">
                                 <span className="font-motorsport font-bold text-lg tracking-[0.3em] uppercase">BETA FEE</span>
                                 <div className="flex items-baseline gap-2 mt-2">
                                     <span className="text-8xl font-motorsport font-black italic">$0</span>
-                                    <span className="text-2xl font-motorsport font-bold italic opacity-60">/ MO</span>
+                                    <span className="text-2xl font-motorsport font-bold italic opacity-60">/during Beta*</span>
                                 </div>
+                                <p className="mt-4 text-[11px] font-bold uppercase tracking-wider leading-tight max-w-[280px]">
+                                    *Special beta deal - $199/m & $20/seat for 2 years if paid annually on launch.
+                                </p>
                             </div>
                             <button className="w-full py-5 bg-black text-white font-motorsport font-bold italic text-2xl hover:bg-white hover:text-black transition-colors uppercase">
                                 REQUEST BETA ACCESS
